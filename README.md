@@ -1,3 +1,8 @@
-Este trabajo corresponde a la asignatura **Sistemas Operativos I**
+Este trabajo corresponde a la asignatura ##Sistemas Operativos I
 
-Ver objetivo del trabajo en el archivo *EnunciadoTrabajo_K.pdf*
+El archivo *TrabajoLinux.pdf* contiene:
+- Objetivos
+- Descripcion
+- Otros conceptos referentes a la asignatura
+
+El archivo *EnunciadoTrabajo_K.pdf* contiene el **Enunciado del trabajo**
