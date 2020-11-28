@@ -21,20 +21,17 @@ else
                         read fichero2
 			([ -r $fichero1 ] && [ -r $fichero2 ] && wc $fichero1 $fichero2 > recuento) || echo "Alguno o los dos ficheros no tiene permiso de lectura";; 
 		M|m)
-			menor=9999
+			menor=0
 			mayor=0
-			#Comprobacion menor
+			
 			for i in $*
 			do
-				if [ $menor -le $i ]
+				#Comprobacion menor
+				if [ $i -le menor ]
 				then (menor=$i) 
-				fi
-			done
-
-			i=0
-			#Comprobacion mayor
-			for i in $*
-			do
+				
+				#Comprobacion mayor
+			
                                 if [ $i -ge $mayor ]
                                 then (mayor=$i)
                                 fi
