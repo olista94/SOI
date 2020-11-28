@@ -1,4 +1,4 @@
-Este trabajo corresponde a la asignatura ##Sistemas Operativos I
+# Este trabajo corresponde a la asignatura Sistemas Operativos I
 
 El archivo *TrabajoLinux.pdf* contiene:
 - Objetivos
