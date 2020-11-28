@@ -29,6 +29,7 @@ else
 				#Comprobacion menor
 				if [ $i -le menor ]
 				then (menor=$i) 
+				fi
 				
 				#Comprobacion mayor
 			
