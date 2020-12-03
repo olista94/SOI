@@ -26,13 +26,16 @@ else
 
 		# Muestra el mayor y menor numero de los parametros introducidos
 		M|m)
-			menor=0
-			mayor=0
+			# menor=999999999
+			# mayor=0
+			menor=$1
+			mayor=$1
+
 
 			for i in $*
 			do
 				#Comprobacion menor
-				if [ "$i" -ge $menor ]
+				if [ "$i" -le $menor ]
 				then let menor=$i
 				fi
 
