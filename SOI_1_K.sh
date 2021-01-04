@@ -24,9 +24,9 @@ mayorMenor(){
 				fi
 
 				#Comprobacion mayor
-				if [ "$i" -ge $mayor ]
-				then let mayor=$i
-				fi
+      	if [ "$i" -ge $mayor ]
+        then let mayor=$i
+        fi
 			done
 
 			echo "Menor: $menor"
